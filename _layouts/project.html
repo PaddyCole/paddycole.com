@@ -3,20 +3,30 @@
 
   {% include _head.html %}
 
-  <body>
-    {% include _post_header.html %}
-    <main class="post">
-      <section>
+  <body class="project">
+    {% include _nav.html %}
+    <main>
+      <div class="container">
+
+        <div class="row">
+          <div class="one column">&nbsp;</div>
+          <div class="ten columns">
+            <img class="project-image-large" src="{{ page.image }}" alt="{{ page.title}}">
+            <div class="project-tag-wrapper">
+              <div class="project-tag"><p>Published {{ page.date | date: "%b %Y"}}</p></div>
+              {% for tag in page.tags %}
+                <div class="project-tag"><p>{{ tag }}</p></div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="one column"></div>
+        </div>
+
         <article class="post">
-
-          <p class="date">{{ page.date | date: "%-d %B %Y" }}</p>
-          <h2>{{ page.title }}</h2>
-          <h2 class="subtitle">{{ page.sub-title }}</h2>
-
           {{ content }}
-
         </article>
-      </section>
+
+      </div>
       {% include _footer.html %}
     </main>
   </body>

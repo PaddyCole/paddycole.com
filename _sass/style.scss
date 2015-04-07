@@ -19,7 +19,6 @@ $project-white-border: 7px;
 }
 
 .navbar-item {
-  display: inline;
   margin-bottom: 0;
 }
 
@@ -33,15 +32,35 @@ $project-white-border: 7px;
   line-height: 6.5rem;
   color: $dark-grey;
   display: inline-block;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+@media (#{$bp-larger-than-phablet}) {
+  .navbar-item {
+    display: inline;
+  }
+}
+
+body.project {
+  .navbar {
+    box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+  }
 }
 
 // Structure
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 
+html, body{
+  height:100%;
+}
+
 #header {
   background-color: $primary-color;
-  padding: 15em 0;
   color: #fff;
+  height: 100%;
   text-align: center;
 }
 
@@ -79,7 +98,7 @@ h1 {
   width: $project-button-width + ($project-white-border * 2);
   height: ($project-button-height / 2);
   position: absolute;
-  bottom: $project-white-border;
+  bottom: $project-white-border - ($project-black-border / 2);
   left: 50%;
   margin-left: -(($project-button-width + ($project-white-border * 2)) / 2);
   display: inline-block;
@@ -107,6 +126,93 @@ h1 {
   }
 }
 
-#footer {
+// .post-image {
+//   background-image: url('');
+// }
+article.post {
+  margin-top: 6em;
 
+  p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    color: $grey;
+  }
+
+  .row {
+    margin-bottom: 4em;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
+
+.project-image-large {
+  margin-top: 6em;
+  width: 100%;
+}
+
+.project-tag-wrapper {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.project-tag {
+  display: inline-block;
+  border: 3px solid $light-grey;
+  padding: .8em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+
+  p {
+    text-transform: uppercase;
+    font-style: italic;
+    color: $light-grey;
+    margin: 0;
+  }
+}
+
+#footer {
+  padding: 3.4em 1em;
+  font-size: 1.2em;
+  margin-top: 3em;
+  background-color: $primary-color;
+
+  .logo {
+    text-align: center;
+  }
+
+  .centered {
+    margin: 0 auto;
+    display: inline;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  p {
+    line-height: 1.2em;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+// Media Queries
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Larger than mobile
+@media (#{$bp-larger-than-mobile}) {}
+
+// Larger than phablet (also point when grid becomes active)
+@media (#{$bp-larger-than-phablet}) {}
+
+// Larger than tablet
+@media (#{$bp-larger-than-tablet}) {}
+
+// Larger than desktop
+@media (#{$bp-larger-than-desktop}) {}
+
+// Larger than Desktop HD
+@media (#{$bp-larger-than-desktophd}) {}
