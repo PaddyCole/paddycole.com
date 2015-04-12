@@ -70,7 +70,7 @@ html, body{
 }
 
 h1 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: .3em;
   font-weight: $bold;
@@ -176,8 +176,8 @@ article.post {
 
 #footer {
   padding: 3.4em 1em;
-  font-size: 1.2em;
-  margin-top: 3em;
+  font-size: 1em;
+  margin-top: 6em;
   background-color: $primary-color;
 
   .logo {
@@ -194,7 +194,8 @@ article.post {
   }
 
   p {
-    line-height: 1.2em;
+    line-height: 1em;
+    text-align: center;
     color: #fff;
     margin: 0;
   }
