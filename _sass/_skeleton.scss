@@ -47,6 +47,7 @@ $font-color: #222 !default;
 
 // Typography
 $font-family: "Proxima Nova", sans-serif !default;
+$Light: 200;
 $bold: 400;
 
 //Grid Variables
@@ -179,7 +180,7 @@ html {
 body {
   font-size: 1.5em; // currently ems cause chrome bug misinterpreting rems on body element
   line-height: 1.6;
-  font-weight: 300;
+  font-weight: 200;
   font-family: $font-family;
   color: $font-color;
 }
