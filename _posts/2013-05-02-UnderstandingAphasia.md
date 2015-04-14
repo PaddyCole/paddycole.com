@@ -1,5 +1,5 @@
 ---
-title:  MARTIAN APP
+title:  APHASIA
 layout: project
 image:  http://placehold.it/835x336
 tags:   [Mobile App, Education, Space]
