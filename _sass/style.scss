@@ -134,6 +134,12 @@ h1 {
     text-align: center;
     margin-bottom: 4.5em;
   }
+
+  &.title-two{
+    letter-spacing: .3em;
+    text-align: center;
+    margin-bottom: 4.5em;
+  }
 }
 
 #header img {
@@ -214,7 +220,7 @@ article.post {
 }
 
 .project-image-large {
-  margin-top: 6em;
+  margin-top: 9em;
   width: 100%;
 }
 
@@ -225,7 +231,7 @@ article.post {
 
 .project-tag {
   display: inline-block;
-  border: 3px solid $light-grey;
+  border: 2px solid $light-grey;
   padding: .8em;
   margin-left: 1em;
   margin-bottom: 1em;
