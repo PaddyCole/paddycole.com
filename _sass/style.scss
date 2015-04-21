@@ -161,7 +161,20 @@ h1 {
 
 .project-image {
   height: 400px;
+  //max-height: 400px;
+  //max-width: 608px;
   background-image: url('http://placehold.it/600x400');
+  background-position: center;
+  //background-size: 100%;
+  background-repeat: no-repeat;
+
+  &.martian {
+    background-image: url('/Static/img/Martian/1.Martian_Project_Tile.jpg');
+  }
+
+  &.farmdrop {
+    background-image: url('/Static/img/Martian/1.Martian_Project_Tile.jpg');
+  }
 }
 
 .project-button-cutout {
@@ -222,6 +235,10 @@ article.post {
 .project-image-large {
   margin-top: 9em;
   width: 100%;
+
+    & martian-header {
+      background-image: url('/Static/img/Martian/Martian-Header-2x.jpg');
+    }
 }
 
 .project-tag-wrapper {
@@ -232,13 +249,14 @@ article.post {
 .project-tag {
   display: inline-block;
   border: 2px solid $light-grey;
+  border-radius: 4px;
   padding: .8em;
   margin-left: 1em;
   margin-bottom: 1em;
 
   p {
     text-transform: uppercase;
-    font-style: italic;
+    //font-style: italic;
     color: $light-grey;
     margin: 0;
   }

@@ -1,6 +1,7 @@
 ---
 title:  CUOPLA RIDER
 layout: project
+class:  martian
 image:  /Static/img/Martian/Martian-Header-2x.jpg
 tags:   [Mobile App, Education, Space]
 ---
