@@ -100,3 +100,11 @@ I also built a themed cultural probe to get insight from people who lived during
     </div>
   <div class="two columns">&nbsp;</div>
 </div>
+
+<div class="row">
+  <div class="three columns">&nbsp;</div>
+  <div class="six columns" markdown="1">
+You can see more on my project log [here](http://paddycole.com/blog/ "Link")
+  </div>
+  <div class="three column">&nbsp;</div>
+</div>
