@@ -1,9 +1,9 @@
 ---
-title:  CUOPLA RIDER
+title:  CUPOLA RIDER
 layout: project
-class:  martian
-image:  /Static/img/Martian/Martian-Header-2x.jpg
-tags:   [Mobile App, Education, Space]
+class:  cupolarider
+image:  /Static/img/CupolaRider/CupolaRider-Header.jpg
+tags:   [Web-App, Space, Simulation, Hackathon]
 ---
 
 <div class="row">

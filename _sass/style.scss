@@ -125,7 +125,7 @@ html, body{
 h1 {
   font-size: 1.6rem;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: .08em;
   font-weight: $bold;
   color: $primary-color;
 
@@ -173,7 +173,11 @@ h1 {
   }
 
   &.farmdrop {
-    background-image: url('/Static/img/Martian/1.Martian_Project_Tile.jpg');
+    background-image: url('/Static/img/Farmdrop/1.Farmdrop_Project_Tile.jpg');
+  }
+
+  &.cupolarider {
+    background-image: url('/Static/img/CupolaRider/1.CupolaRider_Project_Tile.jpg');
   }
 }
 
@@ -239,6 +243,10 @@ article.post {
     & martian-header {
       background-image: url('/Static/img/Martian/Martian-Header-2x.jpg');
     }
+
+    & farmdrop-header {
+      background-image: url('/Static/img/Farmdrop/Farmdrop-Header.jpg');
+    }
 }
 
 .project-tag-wrapper {
@@ -248,8 +256,8 @@ article.post {
 
 .project-tag {
   display: inline-block;
-  border: 2px solid $light-grey;
-  border-radius: 4px;
+  border: 1px solid $light-grey;
+  border-radius: 2px;
   padding: .8em;
   margin-left: 1em;
   margin-bottom: 1em;

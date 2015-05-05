@@ -50,6 +50,10 @@ $font-family: "Proxima Nova", sans-serif !default;
 $Light: 200;
 $bold: 400;
 
+//$font-family: "Utopia Std";
+//$Regular: 400;
+//$Lighter: 300;
+
 //Grid Variables
 $container-width: 960px !default;
 $container-width-larger-than-mobile: 85% !default;
@@ -190,7 +194,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   font-weight: 300;
 }
 
