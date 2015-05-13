@@ -45,37 +45,37 @@ I decided to base the design language of Martian around the rich photography and
 
 <div class="row">
   <div class="six columns">
-    <img src="/Static/img/Martian/1.SplashScreen.jpg">
+    <img src="/static/img/Martian/1.SplashScreen.jpg">
   </div>
   <div class="six columns">
-    <img src="/Static/img/Martian/2.Menu.jpg">
-  </div>
-</div>
-
-<div class="row">
-  <div class="six columns">
-    <img src="/Static/img/Martian/3.Mars.jpg">
-  </div>
-  <div class="six columns">
-    <img src="/Static/img/Martian/8.Missions.jpg">
+    <img src="/static/img/Martian/2.Menu.jpg">
   </div>
 </div>
 
 <div class="row">
   <div class="six columns">
-    <img src="/Static/img/Martian/5.Weather.jpg">
+    <img src="/static/img/Martian/3.Mars.jpg">
   </div>
   <div class="six columns">
-    <img src="/Static/img/Martian/4.Journey.png">
+    <img src="/static/img/Martian/8.Missions.jpg">
   </div>
 </div>
 
 <div class="row">
   <div class="six columns">
-    <img src="/Static/img/Martian/7.Panorama.jpg">
+    <img src="/static/img/Martian/5.Weather.jpg">
   </div>
   <div class="six columns">
-    <img src="/Static/img/Martian/6.News.jpg">
+    <img src="/static/img/Martian/4.Journey.png">
+  </div>
+</div>
+
+<div class="row">
+  <div class="six columns">
+    <img src="/static/img/Martian/7.Panorama.jpg">
+  </div>
+  <div class="six columns">
+    <img src="/static/img/Martian/6.News.jpg">
   </div>
 </div>
 

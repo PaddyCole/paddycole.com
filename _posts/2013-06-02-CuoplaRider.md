@@ -24,7 +24,7 @@ You can view it [here](https://2013.spaceappschallenge.org/project/cupola-rider/
 <div class="row">
   <div class="three columns">&nbsp;</div>
   <div class="six columns">
-    <img src="/Static/img/CupolaRider/CupolaRiderDemo.jpg">
+    <img src="/static/img/CupolaRider/CupolaRiderDemo.jpg">
   </div>
   <div class="three columns">&nbsp;</div>
 </div>
@@ -44,7 +44,7 @@ The challenge we decided to take on was “Spot the station”. NASA released a 
 <div class="row">
   <div class="two columns">&nbsp;</div>
   <div class="eight columns">
-    <img src="/Static/img/CupolaRider/ISSCupola.jpg">
+    <img src="/static/img/CupolaRider/ISSCupola.jpg">
   </div>
   <div class="two columns">&nbsp;</div>
 </div>
