@@ -2,7 +2,7 @@
 title:  MARTIAN APP
 layout: project
 class: martian
-image:  /Static/img/Martian/Martian-Header-2x.jpg
+image:  /static/img/Martian/Martian-Header-2x.jpg
 tags:   [Mobile App, Education, Space, Data]
 ---
 

@@ -2,7 +2,7 @@
 title:  CUPOLA RIDER
 layout: project
 class:  cupolarider
-image:  /Static/img/CupolaRider/CupolaRider-Header.jpg
+image:  /static/img/CupolaRider/CupolaRider-Header.jpg
 tags:   [Web-App, Space, Simulation, Hackathon]
 ---
 
