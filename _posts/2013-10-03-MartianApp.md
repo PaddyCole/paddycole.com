@@ -16,6 +16,8 @@ Martian is a mobile-app that connects you with our neighbouring planet Mars, and
 There is a wealth of data being collected from these missions, ranging for weather, to the elemental components of it’s soil. Along with a being a portal to on-going missions, such as the Curiosity Rover, ‘Martian’ encourages you to compare these data feeds from the red planet, to your location here on Earth.
 
 Martian aims to connect people to the surface of another world, but making the scientific data more approachable to those who may not initially be interested in our cosmos.
+
+You can read more about my process here: [Martian Project log]](http://paddycole.com/blog/ "Link")
   </div>
   <div class="two columns">&nbsp;</div>
 </div>
